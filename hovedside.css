@@ -2,12 +2,6 @@
       background-color: rgb(223, 222, 222);
   }
 
-
-  .linje {
-      border: white 1.5px solid;
-
-  }
-
   .navn {
       letter-spacing: 12px;
       word-spacing: 30px;
@@ -81,16 +75,16 @@
   }
 
   .info {
-    margin: auto;
-    margin-bottom: 40px;
-    width: 80%;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+      margin: auto;
+      margin-bottom: 40px;
+      width: 80%;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
   }
 
-  
-  
+
+
 
   .container2 {
       margin-top: 150px;
@@ -134,62 +128,22 @@
       display: block;
   }
 
-  .fot {
-      width: 100%;
-      height: 300px;
-      display: flex;
-      color: rgb(87, 86, 86);
-  }
-
-  .ramme1 {
-      width: 65%;
-  }
-
-  .ramme2 {
-      width: 35%;
-  }
-
   .lang1 {
-      width: 100%;
-      height: 200px;
       border: 3px solid rgb(149, 149, 149);
       background-color: rgb(237, 235, 235);
   }
 
   .lang2 {
-      width: 100%;
-      height: 100px;
       border: 3px solid rgb(149, 149, 149);
       background-color: rgb(237, 235, 235);
-      padding-left: 50px;
-      align-content: center;
+
   }
 
   .hoy3 {
-      width: 100%;
-      height: 300px;
       border: 3px solid rgb(149, 149, 149);
       background-color: rgb(237, 235, 235);
-      padding: 40px;
-      padding-left: 60px;
-      position: relative;
   }
 
-  h3 {
-      margin-bottom: 20px;
-  }
-
-  .logo {
-      display: flex;
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      width: auto;
-      height: 50px;
-  }
-
-  .logo img {
-      object-fit: contain;
-      width: 100%;
-      height: 100%;
+  .fot {
+      color: rgb(87, 86, 86);
   }
