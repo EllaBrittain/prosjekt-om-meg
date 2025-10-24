@@ -14,6 +14,8 @@ header {
 
 .farge {
     border: 3px solid gray;
+    background-color: rgb(25, 25, 25);
+    color: white;
 }
 
 .linje2 {

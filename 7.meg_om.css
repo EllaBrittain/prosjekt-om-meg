@@ -1,0 +1,41 @@
+body {
+    background-color: lightpink;
+}
+
+.navn {
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.farge {
+    border: 3px solid palevioletred;
+    background-color: pink;
+}
+
+.conainer1 { 
+    border: 7px dotted palevioletred;
+    height: 800px;
+    width: 100%;
+    margin: 150px 0 150px 0;
+    padding: 70px;
+    text-align: center;
+}
+
+.conainer1 h1{
+    width: 70%;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.hvem {
+    border: white 3px solid;
+    background-color: pink;
+    color: white;
+    width: 70%;
+    height: fit-content;
+}

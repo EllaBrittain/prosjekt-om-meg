@@ -1,0 +1,236 @@
+ body {
+     background-color: indianred;
+ }
+
+ .bredde {
+     width: 100%;
+ }
+
+ .overskrift2 {
+     width: fit-content;
+     margin: auto;
+     font-size: 30px;
+     margin-bottom: 30px;
+     color: white;
+ }
+
+ .container2 {
+     width: 100%;
+     height: 850px;
+     border: white 5px solid;
+     margin-top: 100px;
+     margin-bottom: 150px;
+     display: flex;
+
+     background-image: url(https://images.squarespace-cdn.com/content/v1/63738cc893d4ca03c4b3d787/1668517409984-FPEM33SK7W468V5ISIY3/DSC_0079.JPG);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ .b1 {
+     width: 75%;
+     height: 100%;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ .overskrift1 {
+     color: white;
+     font-size: 35px;
+     text-shadow: 2px 2px 5px rgb(232, 166, 0);
+     width: fit-content;
+     margin-bottom: 30px;
+ }
+
+ .info {
+     border: rgb(255, 255, 255) 5px solid;
+     border-radius: 25px;
+     background-color: cornsilk;
+     color: rgb(232, 166, 0);
+     width: 60%;
+     padding: 25px;
+     line-height: 1.7;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .b2 {
+     width: 25%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: first baseline;
+ }
+
+ .liste {
+     border: rgb(255, 255, 255) 5px solid;
+     border-radius: 25px;
+     background-color: cornsilk;
+     color: rgb(232, 166, 0);
+     width: 80%;
+     padding: 25px;
+ }
+
+ .container2 h3 {
+     font-size: 25px;
+ }
+
+ li {
+     margin-bottom: 8px;
+ }
+
+ .liste > p{
+     line-height: 1.7;
+ }
+
+ .container3 {
+     width: 100%;
+     height: 450px;
+     border: white 5px solid;
+     margin-bottom: 250px;
+     margin-top: 250px;
+     padding: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: cornsilk;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .overskrift-programfag {
+     color: white;
+     font-size: 35px;
+     margin-bottom: 40px;
+     text-shadow: 2px 2px 5px rgb(232, 166, 0);
+ }
+
+ .programfag-bokser {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+ }
+
+ .programfag-boks img {
+     width: 100%;
+     height: 150px;
+     object-fit: cover;
+     border-radius: 15px;
+     margin-top: 10px;
+ }
+
+ .programfag-boks {
+     width: 230px;
+     background-color: white;
+     border-radius: 20px;
+     padding: 20px;
+     text-align: center;
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+ }
+
+ .programfag-boks img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+    filter: blur(5px);
+    transition: all 0.3s ease; 
+}
+
+ .programfag-boks:hover img{
+    filter: blur(0);   
+    width: 95%;  
+ }
+
+ .programfag-boks h3 {
+     margin-bottom: 15px;
+     color: rgb(8, 70, 106);
+ }
+
+ .container1 {
+     margin-bottom: 250px;
+ }
+
+ h1 {
+     font-weight: bolder;
+     font-style: oblique;
+     margin-bottom: 15px;
+     margin-left: 20px;
+ }
+
+ .overskrift td {
+     font-weight: bolder;
+     font-size: 25px;
+     border: 3px solid black;
+     padding: 10px;
+     height: 20px;
+ }
+
+ .partall_oddetall td {
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-weight: bold;
+     height: 15px;
+ }
+
+ td {
+     border: 3px solid black;
+     padding: 13px;
+     width: 9%;
+     height: 40px;
+     background-color: antiquewhite;
+     font-size: large;
+     text-align: left;
+ }
+
+ table {
+     border-collapse: collapse;
+ }
+
+ .it {
+     background-color: rgb(86, 240, 202);
+ }
+
+ .fysikk {
+     background-color: cornflowerblue;
+ }
+
+ .gym {
+     background-color: lightblue;
+ }
+
+ .matte {
+     background-color: rgb(255, 127, 178);
+ }
+
+ .norsk {
+     background-color: rgb(231, 62, 73);
+ }
+
+ .kjemi {
+     background-color: rgb(44, 220, 44);
+ }
+
+ .spansk {
+     background-color: mediumpurple;
+ }
+
+ .historie {
+     background-color: rgb(255, 201, 41);
+ }
+
+ .klassen {
+     background-color: cadetblue;
+ }
+
+ .ingen_time {
+     background-color: indianred;
+ }
+
+ .farge {
+     border: 3px solid white;
+     background-color: lightcoral;
+     color: rgb(52, 52, 52);
+ }
