@@ -35,7 +35,7 @@ body {
 .info {
     height: 115px;
     width: 245px;
-    
+
 }
 
 .sang {
@@ -55,7 +55,7 @@ img {
     height: 70px;
 }
 
-p{
+p {
     margin-bottom: 5px;
 }
 
@@ -71,5 +71,6 @@ p{
 }
 
 .fot {
+    
     color: black;
 }

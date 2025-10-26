@@ -78,7 +78,7 @@ body {
     object-fit: cover;
 }
 
-.boks>.bilde img[src*="lås"] {
+.boks>.bilde img[src*="las"] {
     filter: invert(100%) brightness(130%);
 }
 
